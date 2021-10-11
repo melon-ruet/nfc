@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_size">115.0dip</dimen>
+    <dimen name="scan_pic_height">250.0dip</dimen>
+    <dimen name="scan_pic_width">250.0dip</dimen>
+</resources>

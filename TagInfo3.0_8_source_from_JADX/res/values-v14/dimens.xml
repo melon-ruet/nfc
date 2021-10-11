@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sort_text_pad_left">47.0dip</dimen>
+    <dimen name="drawer_lower_text_size">14.0sp</dimen>
+    <dimen name="drawer_upper_selected_text_size">22.0sp</dimen>
+    <dimen name="drawer_upper_text_size">21.0sp</dimen>
+</resources>

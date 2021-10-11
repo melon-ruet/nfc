@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-1" android:src="@drawable/nxp_logo" android:layout_weight="1.0" android:contentDescription="@string/nxp_color" />

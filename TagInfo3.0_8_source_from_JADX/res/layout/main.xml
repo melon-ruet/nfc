@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/nxp_gray" android:visibility="2" android:layout_width="-2" android:layout_height="@dimen/nxp_logo_height" android:src="@drawable/nxp_gray" android:scaleType="4" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/nxp_gray" />
+    <ImageView android:id="@id/nxp_color" android:layout_width="-2" android:layout_height="@dimen/nxp_logo_height" android:src="@drawable/nxp_color" android:scaleType="4" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/nxp_color" />
+    <com.nxp.taginfolite.fragments.view.SlidingTabLayout android:id="@id/sliding_tabs" android:layout_width="-1" android:layout_height="-2" />
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/sliding_tabs" />
+    <LinearLayout android:orientation="1" android:id="@id/tag_scan_illustration" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="1" android:layout_width="@dimen/scan_pic_width" android:layout_height="@dimen/scan_pic_height" android:layout_marginTop="@dimen/scan_pic_margin_top" android:src="@drawable/tag_scan_illustration" android:contentDescription="@string/empty_text" />
+        <TextView android:textSize="@dimen/scan_pic_text_size" android:layout_gravity="1" android:paddingTop="@dimen/scan_pic_pad_text" android:paddingBottom="@dimen/scan_pic_pad_bot" android:layout_width="-2" android:layout_height="-2" android:text="@string/empty_text" android:textIsSelectable="false" style="@style/item_text" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scan_pic_height">150.0dip</dimen>
+    <dimen name="scan_pic_pad_bot">15.0dip</dimen>
+    <dimen name="scan_pic_pad_text">15.0dip</dimen>
+    <dimen name="scan_pic_width">150.0dip</dimen>
+</resources>

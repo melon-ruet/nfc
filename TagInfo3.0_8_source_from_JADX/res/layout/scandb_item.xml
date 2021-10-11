@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/scan_item" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/hist_text_size" android:id="@id/scan_time" android:background="@drawable/dark_header_dither" android:layout_width="-2" android:layout_height="@dimen/hist_height" android:layout_weight="1.0" android:textIsSelectable="false" style="@style/bullet_title" />
+        <TextView android:textSize="@dimen/hist_text_size" android:typeface="3" android:textStyle="0" android:id="@id/scan_uid" android:background="@drawable/dark_header_dither" android:paddingRight="@dimen/hist_uid_pad_right" android:layout_width="-2" android:layout_height="@dimen/hist_height" android:layout_weight="0.0" style="@style/item_title" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:paddingBottom="@dimen/hist_title_pad_bottom" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/hist_title_text_size" android:id="@id/scan_title" android:paddingLeft="@dimen/hist_text_pad_left" android:paddingTop="@dimen/hist_text_pad_top" android:paddingRight="@dimen/hist_text_pad_right" android:paddingBottom="@dimen/hist_text_pad_bottom" android:layout_width="-2" android:layout_height="-2" android:drawablePadding="@dimen/hist_title_drawable_pad" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="0" android:paddingTop="@dimen/hist_img_pad_top" android:paddingRight="@dimen/hist_img_pad_right" android:layout_width="-2" android:layout_height="-2" android:layout_weight="0.0">
+            <ImageView android:id="@id/scan_has_ndef" android:visibility="2" android:layout_width="-2" android:layout_height="@dimen/hist_img_width" android:src="@drawable/ic_ndef_detected" />
+            <ImageView android:id="@id/scan_tag_lost" android:visibility="2" android:layout_width="-2" android:layout_height="@dimen/hist_img_width" android:src="@drawable/ic_warning" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/dialog_title_sort_by" style="@style/dialog_title" />
+    <include layout="@layout/dialog_title_divider" />
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <RadioGroup android:id="@id/sort_group_item" android:paddingLeft="15dp" android:layout_width="-2" android:layout_height="-2">
+                <RadioButton android:id="@id/sort_by_time" android:checked="true" android:text="@string/dialog_sort_time" style="@style/sort_radio_item" />
+                <RadioButton android:id="@id/sort_by_title" android:text="@string/dialog_sort_title" style="@style/sort_radio_item" />
+                <RadioButton android:id="@id/sort_by_ndef" android:text="@string/dialog_sort_ndef" style="@style/sort_radio_item" />
+                <RadioButton android:id="@id/sort_by_uid" android:layout_height="-2" android:text="@string/dialog_sort_uid" style="@style/sort_radio_item" />
+            </RadioGroup>
+            <View android:background="@color/color_GB_secondary_text_dark" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="@dimen/sort_text_pad_top" android:layout_marginBottom="@dimen/sort_text_pad_bottom" />
+            <RadioGroup android:orientation="1" android:id="@id/sort_group_order" android:paddingLeft="15dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@dimen/sort_text_pad_bottom">
+                <RadioButton android:id="@id/sort_descending" android:checked="true" android:text="@string/dialog_sort_descending" style="@style/sort_radio_item" />
+                <RadioButton android:id="@id/sort_ascending" android:text="@string/dialog_sort_ascending" style="@style/sort_radio_item" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

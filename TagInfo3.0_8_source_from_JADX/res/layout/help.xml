@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:text="@string/help_title" style="@style/bullet_title" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="@string/help_intro_text" style="@style/item_text" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:text="@string/help_home_title" style="@style/bullet_title" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="@string/help_home" style="@style/item_text" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:text="@string/help_ndef_title" style="@style/bullet_title" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="@string/help_ndef" style="@style/item_text" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:text="@string/help_info_title" style="@style/bullet_title" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="@string/help_info" style="@style/item_text" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:text="@string/help_tech_title" style="@style/bullet_title" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="@string/help_tech" style="@style/item_text" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <TextView android:text="@string/help_glossary_title" style="@style/bullet_title" />
+        <View android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+        <include layout="@layout/glossary" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <size android:height="6dp" android:width="6dp" />
+    <solid android:color="@color/color_bullet" />
+    <corners android:radius="0dp" />
+</shape>

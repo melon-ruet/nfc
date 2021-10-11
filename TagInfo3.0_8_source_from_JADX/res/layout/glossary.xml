@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:paddingLeft="@dimen/glos_pad_left" android:layout_width="-1" android:layout_height="-1" android:stretchColumns="1">
+    <TableRow>
+        <TextView android:text="AES" style="@style/glos_col1" />
+        <TextView android:text="Advanced Encryption Standard" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="AFI" style="@style/glos_col1" />
+        <TextView android:text="Application Family Identifier" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="AID" style="@style/glos_col1" />
+        <TextView android:text="Application Identifier" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ALU" style="@style/glos_col1" />
+        <TextView android:text="Application Load Unit" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="AMD" style="@style/glos_col1" />
+        <TextView android:text="Additional MULTOS Data" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="APDU" style="@style/glos_col1" />
+        <TextView android:text="Application Protocol Data Unit" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ATQA" style="@style/glos_col1" />
+        <TextView android:text="Answer to Query Type A" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ATR" style="@style/glos_col1" />
+        <TextView android:text="Answer To Reset" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ATS" style="@style/glos_col1" />
+        <TextView android:text="Answer To Select" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="BER" style="@style/glos_col1" />
+        <TextView android:text="Basic Encoding Rules" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="CC" style="@style/glos_col1" />
+        <TextView android:text="Capability Container" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="CID" style="@style/glos_col1" />
+        <TextView android:text="Card Identifier" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="CPLC" style="@style/glos_col1" />
+        <TextView android:text="Card Production Life Cycle" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="CRC" style="@style/glos_col1" />
+        <TextView android:text="Cyclic Redundancy Code" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="DES" style="@style/glos_col1" />
+        <TextView android:text="Data Encryption Standard" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="DF" style="@style/glos_col1" />
+        <TextView android:text="Dedicated File" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="DR" style="@style/glos_col1" />
+        <TextView android:text="Data Receive" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="DS" style="@style/glos_col1" />
+        <TextView android:text="Data Send" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="DSFID" style="@style/glos_col1" />
+        <TextView android:text="Data Storage Format Identifier" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="EAS" style="@style/glos_col1" />
+        <TextView android:text="Electronic Article Surveillance" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="EEPROM" style="@style/glos_col1" />
+        <TextView android:text="Electrically Erasable Programmable Read-Only Memory" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="EF" style="@style/glos_col1" />
+        <TextView android:text="Elementary File" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="EPC" style="@style/glos_col1" />
+        <TextView android:text="Electronic Product Code" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="FCI" style="@style/glos_col1" />
+        <TextView android:text="File Control Information" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="FID" style="@style/glos_col1" />
+        <TextView android:text="File Identifier" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="FRAM" style="@style/glos_col1" />
+        <TextView android:text="Ferroelectric Random Access Memory" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="FSCI" style="@style/glos_col1" />
+        <TextView android:text="Frame Size for proximity Card Integer" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="FWI" style="@style/glos_col1" />
+        <TextView android:text="Frame Waiting time Integer" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="FWT" style="@style/glos_col1" />
+        <TextView android:text="Frame Waiting Time" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="IC" style="@style/glos_col1" />
+        <TextView android:text="Integrated Circuit" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ID" style="@style/glos_col1" />
+        <TextView android:text="Identifier" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="IEC" style="@style/glos_col1" />
+        <TextView android:text="International Electrotechnical Commission" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ISO" style="@style/glos_col1" />
+        <TextView android:text="International Standards Organization" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="JIS" style="@style/glos_col1" />
+        <TextView android:text="Japanese Industry Standard" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Lc" style="@style/glos_col1" />
+        <TextView android:text="Length of Command data" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="LCS" style="@style/glos_col1" />
+        <TextView android:text="Life Cycle Status" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Le" style="@style/glos_col1" />
+        <TextView android:text="Length of Expected data" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="MAC" style="@style/glos_col1" />
+        <TextView android:text="Message Authentication Code" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="MAD" style="@style/glos_col1" />
+        <TextView android:text="MIFARE Application Directory" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="MCD" style="@style/glos_col1" />
+        <TextView android:text="MULTOS Carrier Device" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="MF" style="@style/glos_col1" />
+        <TextView android:text="Master File" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="MRTD" style="@style/glos_col1" />
+        <TextView android:text="Machine-Readable Travel Document" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="NAD" style="@style/glos_col1" />
+        <TextView android:text="Node Address" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="NDEF" style="@style/glos_col1" />
+        <TextView android:text="NFC Data Exchange Format" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="NFC" style="@style/glos_col1" />
+        <TextView android:text="Near Field Communication" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="NFCIP-1" style="@style/glos_col1" />
+        <TextView android:text="Near Field Communication Interface and Protocol 1" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="nPA" style="@style/glos_col1" />
+        <TextView android:text="Neue Personalausweis" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="OS" style="@style/glos_col1" />
+        <TextView android:text="Operating System" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="OTP" style="@style/glos_col1" />
+        <TextView android:text="One-Time Programmable" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="PICC" style="@style/glos_col1" />
+        <TextView android:text="Proximity Integrated Circuit Card" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="PKCS" style="@style/glos_col1" />
+        <TextView android:text="Public Key Cryptography Standard" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="PMm" style="@style/glos_col1" />
+        <TextView android:text="Manufacture Parameter" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="PPSE" style="@style/glos_col1" />
+        <TextView android:text="Proximity Payment System Environment" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Req." style="@style/glos_col1" />
+        <TextView android:text="Request" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="RF" style="@style/glos_col1" />
+        <TextView android:text="Radio Frequency" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="RFID" style="@style/glos_col1" />
+        <TextView android:text="Radio Frequency Identification" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="RFU" style="@style/glos_col1" />
+        <TextView android:text="Reserved for Future Use" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="ROM" style="@style/glos_col1" />
+        <TextView android:text="Read-Only Memory" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="SAK" style="@style/glos_col1" />
+        <TextView android:text="Select Acknowledge" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="SFGI" style="@style/glos_col1" />
+        <TextView android:text="Start-up Frame Guard time Integer" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="SFGT" style="@style/glos_col1" />
+        <TextView android:text="Start-up Frame Guard Time" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="SVC" style="@style/glos_col1" />
+        <TextView android:text="Select Virtual Card" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="SW" style="@style/glos_col1" />
+        <TextView android:text="Status Word" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="TLV" style="@style/glos_col1" />
+        <TextView android:text="Tag, Length, Value" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="VCS" style="@style/glos_col1" />
+        <TextView android:text="Virtual Card Support" style="@style/glos_col2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="VCSL" style="@style/glos_col1" />
+        <TextView android:text="Virtual Card Support Last" style="@style/glos_col2" />
+    </TableRow>
+</TableLayout>

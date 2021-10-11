@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@id/nxpNdefDialog" android:background="@drawable/toast_bg" android:padding="11dp" android:layout_width="-2" android:layout_height="-1">
+    <TextView android:textSize="@dimen/toast_text_normal" android:textColor="@color/color_white" android:id="@id/nxpDetected" android:paddingLeft="7dp" android:paddingTop="7dp" android:paddingRight="5dp" android:paddingBottom="7dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/toast_nxp_detected" android:drawableLeft="@drawable/ic_nxp" android:drawablePadding="7dp" />
+    <LinearLayout android:id="@id/toastDivider" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="-1" android:layout_height="-2">
+        <View android:background="#808080" android:layout_width="-1" android:layout_height="1dp" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/toast_text_normal" android:textColor="@color/color_white" android:id="@id/ndefDetected" android:paddingLeft="7dp" android:paddingTop="7dp" android:paddingRight="5dp" android:paddingBottom="4dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/toast_ndef_detected" android:drawableLeft="@drawable/ic_ndef_detected" android:drawablePadding="7dp" />
+</LinearLayout>

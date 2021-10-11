@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:padding="0dp" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false">
+    <ProgressBar android:id="@id/tag_scan_dialog_progressBar" style="@style/Theme.TagInfo.Progress" />
+    <TextView android:textSize="@dimen/item_text_size" android:id="@id/tag_scan_dialog_lblText" android:paddingTop="@dimen/scan_pad_top" android:layout_width="-2" android:layout_height="-2" android:text="@string/dialog_scanning_tag" />
+</LinearLayout>

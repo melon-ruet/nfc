@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.jraf.android.backport.switchwidget.Switch android:layout_gravity="11" android:id="@id/switchWidget" android:padding="16dp" android:focusable="false" android:layout_width="-2" android:layout_height="-2" />

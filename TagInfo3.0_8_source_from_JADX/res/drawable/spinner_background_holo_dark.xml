@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:drawable="@drawable/spinner_disabled_taginfo" />
+    <item android:state_pressed="true" android:drawable="@drawable/spinner_pressed_taginfo" />
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/spinner_focused_taginfo" />
+    <item android:drawable="@drawable/spinner_default_taginfo" />
+</selector>

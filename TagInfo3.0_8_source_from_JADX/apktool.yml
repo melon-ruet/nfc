@@ -1,0 +1,16 @@
+version: 2.0.1
+apkFileName: TagInfo3.0_8.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '10'
+  targetSdkVersion: '20'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '8'
+  versionName: '3.0'
+compressionType: false
+sharedLibrary: false

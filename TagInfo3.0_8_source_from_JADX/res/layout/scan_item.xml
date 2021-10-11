@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColorHighlight="@color/color_text_selected_bg" android:textColorLink="@color/color_nxp_dark_orange" android:id="@id/scanTitle" android:focusable="true" android:clickable="true" android:layout_width="-1" android:textIsSelectable="true" style="@style/bullet_title" />
+    <View android:id="@id/scanTitleDivider" android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+    <TextView android:textColorHighlight="@color/color_text_selected_bg" android:textColorLink="@color/color_nxp_dark_orange" android:linksClickable="true" android:id="@id/scanText" android:focusable="true" android:clickable="true" android:textIsSelectable="true" style="@style/item_text" />
+    <View android:id="@id/layout_listDivider" android:background="@color/divider_bg" android:layout_width="-1" android:layout_height="@dimen/divider_height" />
+</LinearLayout>

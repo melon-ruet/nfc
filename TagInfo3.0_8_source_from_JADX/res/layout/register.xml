@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textColor="@color/color_nxp_orange" android:id="@id/registerData" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-2" style="@style/item_mono" />
+        <TextView android:textSize="17sp" android:id="@id/registerText" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="-1" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:background="0x106000d" android:layout_width="-1" android:layout_height="56dp">
+            <Button android:id="@id/first_button" android:layout_width="-1" android:layout_height="-1" android:text="@string/dialog_button_ok" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

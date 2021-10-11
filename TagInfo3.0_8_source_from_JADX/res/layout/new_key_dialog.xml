@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/dialog_title_new_key" style="@style/dialog_title" />
+    <include layout="@layout/dialog_title_divider" />
+    <ScrollView android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <RadioGroup android:id="@id/key_group_item" android:paddingLeft="15dp" android:layout_width="-2" android:layout_height="-2">
+                <RadioButton android:id="@id/new_key_mfc" android:checked="true" android:text="@string/dialog_key_mfc" style="@style/sort_radio_item" />
+                <RadioButton android:id="@id/new_key_ulc" android:text="@string/dialog_key_ulc" style="@style/sort_radio_item" />
+                <RadioButton android:id="@id/new_key_ulev1" android:text="@string/dialog_key_ulev1" style="@style/sort_radio_item" />
+                <RadioButton android:id="@id/new_key_ntag" android:text="@string/dialog_key_ntag" style="@style/sort_radio_item" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

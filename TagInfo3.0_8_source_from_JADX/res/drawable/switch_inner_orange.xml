@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:drawable="@drawable/switch_thumb_disabled_taginfo" />
+    <item android:state_pressed="true" android:drawable="@drawable/switch_thumb_pressed_taginfo" />
+    <item android:state_checked="true" android:drawable="@drawable/switch_thumb_activated_taginfo" />
+    <item android:drawable="@drawable/switch_thumb_taginfo" />
+</selector>

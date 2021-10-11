@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="aid_type_array">
+        <item>@string/aid_type_df</item>
+        <item>@string/aid_type_iso</item>
+    </string-array>
+    <string-array name="dialog_array_sort_by">
+        <item>@string/dialog_sort_time</item>
+        <item>@string/dialog_sort_title</item>
+        <item>@string/dialog_sort_ndef</item>
+        <item>@string/dialog_sort_uid</item>
+    </string-array>
+    <string-array name="ic_mem_df">
+        <item>Any</item>
+        <item>2K</item>
+        <item>4K</item>
+        <item>8K</item>
+    </string-array>
+    <string-array name="ic_mem_mfc">
+        <item>Any</item>
+        <item>1K</item>
+        <item>2K</item>
+        <item>4K</item>
+        <item>Mini</item>
+    </string-array>
+    <string-array name="ic_type_df">
+        <item>Any</item>
+        <item>EV1</item>
+        <item>D40</item>
+    </string-array>
+    <string-array name="ic_type_mfc">
+        <item>Any</item>
+        <item>Classic</item>
+        <item>Plus</item>
+        <item>TNP</item>
+    </string-array>
+    <string-array name="key_type_df">
+        <item>@string/key_type_df_aes</item>
+        <item>@string/key_type_df_3k3des</item>
+        <item>@string/key_type_df_2k3des</item>
+        <item>@string/key_type_df_des</item>
+    </string-array>
+    <string-array name="key_type_mfc">
+        <item>A|B</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="pref_scan_level_values">
+        <item>@string/pref_scan_level_quick</item>
+        <item>@string/pref_scan_level_detailed</item>
+        <item>@string/pref_scan_level_full</item>
+    </string-array>
+    <string-array name="pref_scan_levels">
+        <item>Quick scan</item>
+        <item>Detailed scan</item>
+        <item>Full scan</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:id="@id/edit_name_ntag" android:hint="Display name" android:inputType="4001" style="@style/key_edit_field" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="PASSWORD" style="@style/text_label_mf" />
+        <EditText android:id="@id/edit_key_ntag0" android:hint="Key value in hex" android:inputType="80001" style="@style/key_edit_field" />
+        <TextView android:paddingTop="15dp" android:layout_width="-2" android:layout_height="-2" android:text="REMARK" style="@style/text_label_mf" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/ntag_pwd_warning" style="@style/key_edit_field" />
+    </LinearLayout>
+</ScrollView>

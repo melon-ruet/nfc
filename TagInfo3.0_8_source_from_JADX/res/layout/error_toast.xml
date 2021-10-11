@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/error_dialog" android:background="@drawable/warn_bg" android:padding="11dp" android:layout_width="-2" android:layout_height="-1">
+    <ImageView android:layout_gravity="10" android:id="@id/error_image" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_action_warning" />
+    <TextView android:textSize="@dimen/toast_text_small" android:textColor="@color/color_white" android:layout_gravity="10" android:id="@id/error_message" android:paddingLeft="7dp" android:paddingTop="7dp" android:paddingRight="5dp" android:paddingBottom="7dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/toast_tag_lost_message" android:drawablePadding="20dp" android:fontFamily="sans-serif-condensed" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/LinearLayout1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/item_text_size" android:textColor="@color/color_about_text" android:id="@id/aboutVersion" android:paddingLeft="@dimen/about_pad" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="@dimen/item_text_size" android:textColor="@color/color_about_text" android:textColorLink="@color/color_bullet" android:id="@id/aboutText" android:paddingLeft="@dimen/about_pad" android:paddingTop="@dimen/about_pad" android:layout_width="-2" android:layout_height="-2" android:text="@string/about_dialog_text" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/button_nxp" android:layout_width="150dp" android:layout_height="75dp" android:layout_marginTop="@dimen/about_margin" android:src="@drawable/nxp_logo" android:scaleType="3" android:contentDescription="Open NXP website" />
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="@dimen/item_text_size" android:textColor="@color/color_about_text" android:layout_gravity="1" android:id="@id/nfcText" android:paddingTop="@dimen/about_pad" android:layout_width="-2" android:layout_height="-2" android:text="Information about NFC:" />
+                <ImageButton android:layout_gravity="1" android:id="@id/button_nfc" android:padding="5dp" android:layout_width="120dp" android:layout_height="100dp" android:src="@drawable/nfc_web" android:scaleType="3" android:contentDescription="Open nearfieldcommunication.com website" />
+            </LinearLayout>
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="2.0" />
+            <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:textSize="@dimen/item_text_size" android:textColor="@color/color_about_text" android:layout_gravity="1" android:id="@id/nxpText" android:paddingTop="@dimen/about_pad" android:layout_width="-2" android:layout_height="-2" android:text="Other NXP apps:" />
+                <ImageButton android:layout_gravity="1" android:id="@id/button_play" android:layout_width="120dp" android:layout_height="100dp" android:src="@drawable/google_play_store_96" android:scaleType="3" android:contentDescription="Open Play Store app" />
+            </LinearLayout>
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="2.0" />
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/about_margin" android:layout_marginBottom="@dimen/about_margin">
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+            <Button android:textSize="@dimen/button_text_size" android:id="@id/button_feedback" android:paddingRight="20dp" android:layout_width="-2" android:layout_height="65dp" android:layout_marginTop="@dimen/about_margin" android:text="Feedback" android:drawableLeft="@drawable/ic_action_email" android:drawablePadding="10dp" android:contentDescription="Email feedback" />
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1.0" />
+        </LinearLayout>
+        <Button android:textSize="@dimen/button_text_size" android:id="@id/button_license" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/about_margin" android:layout_marginTop="@dimen/about_margin" android:layout_marginRight="@dimen/about_margin" android:text="@string/about_license_terms" />
+        <Button android:textSize="@dimen/button_text_size" android:id="@id/button_notices" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/about_margin" android:layout_marginTop="@dimen/about_margin" android:layout_marginRight="@dimen/about_margin" android:text="@string/about_notices" />
+    </LinearLayout>
+</ScrollView>

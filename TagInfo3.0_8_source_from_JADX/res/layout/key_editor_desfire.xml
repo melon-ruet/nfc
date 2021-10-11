@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:id="@id/edit_name_df" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="5dp" android:hint="Display name" android:layout_weight="1.0" android:inputType="4001" />
+        <LinearLayout android:gravity="11" android:orientation="0" android:paddingLeft="12dp" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:gravity="3" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="IC type" style="@style/text_label_mf" />
+                <Spinner android:entries="@array/ic_type_df" android:id="@id/spinner_ic_type_df" android:layout_width="-2" android:layout_height="-2" android:spinnerMode="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="IC memory" style="@style/text_label_mf" />
+                <Spinner android:entries="@array/ic_mem_df" android:id="@id/spinner_ic_mem_df" android:layout_width="-2" android:layout_height="-2" android:spinnerMode="1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="0" android:paddingLeft="12dp" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:gravity="3" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="AID TYPE" style="@style/text_label_mf" />
+                <Spinner android:entries="@array/aid_type_array" android:id="@id/spinner_aid_type_df" android:layout_width="-2" android:layout_height="-2" android:spinnerMode="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="2.0">
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="APPLICATION ID" style="@style/text_label_mf" />
+                <EditText android:id="@id/edit_aid_value" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="0dp" android:hint="AID value in hex" android:layout_weight="2.0" android:inputType="80001" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="0" android:paddingLeft="12dp" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="KEY TYPE" style="@style/text_label_mf" />
+                <Spinner android:entries="@array/key_type_df" android:id="@id/spinner_key_type_df" android:layout_width="-2" android:layout_height="-2" android:spinnerMode="1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="2.0">
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="KEY No." style="@style/text_label_mf" />
+                <EditText android:id="@id/edit_key_no" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="0dp" android:hint="Key no. 1-15" android:layout_weight="2.0" android:inputType="2002" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@id/label_key_value_df1" android:paddingLeft="12dp" android:layout_width="-2" android:layout_height="-2" android:text="KEY BYTES 0-8" style="@style/text_label_mf" />
+        <EditText android:id="@id/edit_key_value_df1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="0dp" android:hint="Key value in hex" android:layout_weight="2.0" android:inputType="80001" />
+        <TextView android:id="@id/label_key_value_df2" android:paddingLeft="12dp" android:layout_width="-2" android:layout_height="-2" android:text="KEY BYTES 9-16" style="@style/text_label_mf" />
+        <EditText android:id="@id/edit_key_value_df2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="0dp" android:hint="Key value in hex" android:layout_weight="2.0" android:inputType="80001" />
+        <TextView android:id="@id/label_key_value_df3" android:paddingLeft="12dp" android:layout_width="-2" android:layout_height="-2" android:text="KEY BYTES 17-24" style="@style/text_label_mf" />
+        <EditText android:id="@id/edit_key_value_df3" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp" android:layout_marginBottom="0dp" android:hint="Key value in hex" android:layout_weight="2.0" android:inputType="80001" />
+    </LinearLayout>
+</ScrollView>

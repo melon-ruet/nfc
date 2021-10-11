@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@id/dialog_title" android:layout_width="-2" android:layout_height="-2" style="@style/dialog_title" />
+    <include layout="@layout/dialog_title_divider" />
+    <LinearLayout android:orientation="1" android:id="@id/contentPanel" android:layout_width="-1" android:layout_height="-2" android:minHeight="64dp" android:layout_weight="1.0">
+        <ScrollView android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="@id/dialog_text" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 1010041" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

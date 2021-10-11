@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/ic_action_share" android:id="@id/share_scan" android:title="@string/menu_send" android:titleCondensed="@string/menu_send_short" android:showAsAction="1" />
+    <item android:icon="@drawable/ic_action_email" android:id="@id/send_scan" android:title="@string/menu_email" android:titleCondensed="@string/menu_email_short" android:showAsAction="2" />
+    <item android:icon="@drawable/ic_menu_tagwriter" android:id="@id/send_scan_ndef" android:title="@string/menu_send_ndef" android:titleCondensed="@string/menu_send_ndef" android:showAsAction="2" />
+    <item android:icon="@drawable/ic_action_discard" android:id="@id/delete_scan" android:title="@string/context_menu_delete_scan" android:titleCondensed="@string/context_menu_delete_scan" android:showAsAction="1" />
+    <item android:icon="@drawable/ic_menu_find" android:id="@id/find_similar" android:title="@string/context_menu_find_similar" android:titleCondensed="@string/context_menu_find_similar_short" android:showAsAction="1" />
+    <item android:icon="@drawable/ic_action_edit" android:id="@id/edit_scan_title" android:title="@string/context_menu_edit" android:titleCondensed="@string/context_menu_edit_short" android:showAsAction="1" />
+    <item android:icon="@drawable/ic_menu_compare" android:id="@id/compare_scans" android:title="@string/context_menu_compare" android:titleCondensed="@string/context_menu_compare_short" android:showAsAction="1" />
+</menu>

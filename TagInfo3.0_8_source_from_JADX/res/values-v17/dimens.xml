@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sort_text_pad_left">15.0dip</dimen>
+</resources>

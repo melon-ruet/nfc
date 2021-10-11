@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/dialog_title_description" style="@style/dialog_title" />
+    <include layout="@layout/dialog_title_divider" />
+    <EditText android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="7" android:id="@id/dialog_get_subject_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="@string/dialog_text_taginfo_scan" android:cursorVisible="true" android:capitalize="0" android:autoText="true" android:inputType="31" android:imeOptions="6" />
+    <LinearLayout android:orientation="0" android:id="@id/dialog_get_subject_check_container" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="17sp" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:text="@string/dialog_always_show" />
+        <CheckBox android:id="@id/dialog_get_subject_check" android:layout_width="-2" android:layout_height="-2" android:checked="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@color/color_drawer_bg" android:layout_width="-1" android:layout_height="-1" android:divider="0x1060000" android:dividerHeight="0dp">
+    <ImageView android:paddingLeft="10dp" android:layout_width="-1" android:layout_height="@dimen/nxp_logo_height" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:src="@drawable/nxp_color" android:scaleType="2" />
+    <LinearLayout android:id="@id/drawer_scan_report" android:layout_width="-1" android:layout_height="@dimen/drawer_upper_item_height" style="@style/upper_drawer_item">
+        <ImageView android:layout_width="-2" android:layout_height="48dp" android:src="@drawable/ic_menu_find" style="@style/upper_drawer_icon" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/drawer_title_scan_report" style="@style/upper_drawer_item_text" />
+    </LinearLayout>
+    <View android:layout_width="-1" android:layout_height="@dimen/drawer_separator_height" style="@style/upper_drawer_sep" />
+    <LinearLayout android:id="@id/drawer_scan_history" android:paddingBottom="7dp" android:layout_width="-1" android:layout_height="@dimen/drawer_upper_item_height" style="@style/upper_drawer_item">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_action_time" style="@style/upper_drawer_icon" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/drawer_title_scan_history" style="@style/upper_drawer_item_text" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/drawer_scan_prev" android:background="@drawable/item_background_holo_dark" android:paddingLeft="45dp" android:paddingTop="3dp" android:paddingRight="30dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/ic_action_back" android:layout_weight="1.0" android:contentDescription="Previous scan report" />
+        <View android:background="@color/color_drawer_sep_upper" android:layout_width="@dimen/drawer_separator_height" android:layout_height="-1" android:layout_marginBottom="5dp" />
+        <ImageView android:id="@id/drawer_scan_next" android:background="@drawable/item_background_holo_dark" android:paddingLeft="30dp" android:paddingTop="3dp" android:paddingRight="45dp" android:paddingBottom="4dp" android:layout_width="0dp" android:layout_height="-2" android:src="@drawable/ic_action_forward" android:layout_weight="1.0" android:contentDescription="Next scan report" />
+    </LinearLayout>
+    <View android:layout_width="-1" android:layout_height="@dimen/drawer_separator_height" style="@style/upper_drawer_sep" />
+    <LinearLayout android:id="@id/drawer_key_manager" android:layout_width="-1" android:layout_height="@dimen/drawer_upper_item_height" style="@style/upper_drawer_item">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_action_accounts" style="@style/upper_drawer_icon" />
+        <TextView android:paddingTop="-2dp" android:layout_width="-2" android:layout_height="-2" android:text="@string/drawer_title_key_manager" style="@style/upper_drawer_item_text" />
+    </LinearLayout>
+    <View android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+    <LinearLayout android:id="@id/drawer_settings" android:layout_width="-1" android:layout_height="@dimen/drawer_lower_item_height" style="@style/lower_drawer_item">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_drawer_settings" style="@style/lower_drawer_icon" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/drawer_title_settings" style="@style/lower_drawer_item_text" />
+    </LinearLayout>
+    <View android:layout_width="-1" android:layout_height="@dimen/drawer_separator_height" style="@style/lower_drawer_sep" />
+    <LinearLayout android:id="@id/drawer_help" android:layout_width="-1" android:layout_height="@dimen/drawer_lower_item_height" style="@style/lower_drawer_item">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_drawer_help" style="@style/lower_drawer_icon" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/drawer_title_help" style="@style/lower_drawer_item_text" />
+    </LinearLayout>
+    <View android:layout_width="-1" android:layout_height="@dimen/drawer_separator_height" style="@style/lower_drawer_sep" />
+    <LinearLayout android:id="@id/drawer_about" android:layout_width="-1" android:layout_height="@dimen/drawer_lower_item_height" style="@style/lower_drawer_item">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_drawer_about" style="@style/lower_drawer_icon" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/drawer_title_about" style="@style/lower_drawer_item_text" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/ic_action_undo" android:enabled="true" android:id="@id/edit_discard" android:menuCategory="20000" android:orderInCategory="10" android:title="@string/menu_discard" android:titleCondensed="@string/menu_discard" android:showAsAction="0" />
+</menu>

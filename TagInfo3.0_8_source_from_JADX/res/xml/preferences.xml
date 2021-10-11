@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/pref_operation_category" android:key="operation_category">
+        <ListPreference android:entries="@array/pref_scan_levels" android:title="@string/pref_scan_level" android:key="scan_level" android:defaultValue="@string/pref_default_scan_level" android:entryValues="@array/pref_scan_level_values" />
+        <CheckBoxPreference android:title="@string/pref_reader_mode" android:key="reader_mode" android:defaultValue="false" android:summaryOn="@string/pref_reader_mode_summary_on" android:summaryOff="@string/pref_reader_mode_summary_off" />
+        <PreferenceScreen android:title="@string/pref_reader_mode_config" android:key="reader_config" android:dependency="reader_mode">
+            <CheckBoxPreference android:title="@string/pref_check_ndef" android:key="check_ndef" android:summary="@string/pref_check_ndef_summary" android:dependency="reader_mode" android:defaultValue="true" />
+            <PreferenceCategory android:title="@string/pref_technology_category" android:key="technology_category">
+                <CheckBoxPreference android:title="@string/pref_reader_config_nfc_a" android:key="config_nfc_a" android:summary="@string/pref_reader_config_nfc_a_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/pref_reader_config_nfc_b" android:key="config_nfc_b" android:summary="@string/pref_reader_config_nfc_b_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/pref_reader_config_nfc_f" android:key="config_nfc_f" android:summary="@string/pref_reader_config_nfc_f_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/pref_reader_config_nfc_v" android:key="config_nfc_v" android:summary="@string/pref_reader_config_nfc_v_summary" android:defaultValue="true" />
+                <CheckBoxPreference android:title="@string/pref_reader_config_nfc_barcode" android:key="config_nfc_barcode" android:summary="@string/pref_reader_config_nfc_barcode_summary" android:defaultValue="true" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <CheckBoxPreference android:title="@string/pref_try_key_b" android:key="try_key_b" android:defaultValue="false" android:summaryOn="@string/pref_try_key_b_summary_on" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_general_category" android:key="general_category">
+        <CheckBoxPreference android:title="@string/pref_switch_to_info_title" android:key="switch_to_info" android:summary="@string/pref_switch_to_info_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_sound_enabled_title" android:key="play_sound" android:summary="@string/pref_sound_enabled_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_vib_enabled_title" android:key="vibrate_enabled" android:summary="@string/pref_vib_enabled_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_lock_orientation_title" android:key="lock_portrait_mode" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_foreground_only" android:key="foreground_only" android:summary="@string/pref_foreground_only_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_show_hex" android:key="show_hex" android:summary="@string/pref_show_hex_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_email_category" android:key="email_category">
+        <EditTextPreference android:title="@string/pref_email_share_address" android:key="email_share_address" android:defaultValue="" android:dialogTitle="@string/pref_email_share_address_title" android:inputType="21" android:imeOptions="6" />
+        <CheckBoxPreference android:title="@string/pref_email_only" android:key="email_only" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_show_email_subject" android:key="show_email_subject" android:summary="@string/pref_show_email_subject_summary" android:dependency="email_only" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_email_xml" android:key="email_xml" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

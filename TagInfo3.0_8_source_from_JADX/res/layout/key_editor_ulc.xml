@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:id="@id/edit_name_ulc" android:hint="Display name" android:inputType="4001" style="@style/key_edit_field" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="PAGE 0x32" style="@style/text_label_ulc" />
+        <EditText android:id="@id/edit_key_ulc0" android:hint="Page content in hex" android:inputType="80001" style="@style/key_edit_field" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="PAGE 0x33" style="@style/text_label_ulc" />
+        <EditText android:id="@id/edit_key_ulc1" android:hint="Page content in hex" android:inputType="80001" style="@style/key_edit_field" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="PAGE 0x34" style="@style/text_label_ulc" />
+        <EditText android:id="@id/edit_key_ulc2" android:hint="Page content in hex" android:inputType="80001" style="@style/key_edit_field" />
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="PAGE 0x35" style="@style/text_label_ulc" />
+        <EditText android:id="@id/edit_key_ulc3" android:hint="Page content in hex" android:inputType="80001" style="@style/key_edit_field" />
+    </LinearLayout>
+</ScrollView>

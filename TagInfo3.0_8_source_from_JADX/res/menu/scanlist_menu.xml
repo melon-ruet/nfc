@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/ic_menu_mark" android:id="@id/mark_items" android:menuCategory="20000" android:orderInCategory="1" android:title="@string/menu_mark_scan" android:titleCondensed="@string/menu_mark_scan" android:showAsAction="1" />
+    <item android:icon="@drawable/ic_action_sort_by_size" android:id="@id/sortBy" android:menuCategory="20000" android:orderInCategory="4" android:title="@string/menu_sort_field" android:titleCondensed="@string/menu_sort_field" android:showAsAction="1" />
+    <item android:icon="@drawable/ic_action_save" android:id="@id/exportAllScans" android:menuCategory="20000" android:orderInCategory="9" android:title="@string/menu_export_all" android:titleCondensed="@string/menu_export_all" android:showAsAction="1" />
+    <item android:icon="@drawable/ic_action_collection" android:id="@id/switchDb" android:menuCategory="20000" android:orderInCategory="11" android:title="@string/menu_switch_db" android:titleCondensed="@string/menu_switch_db" android:showAsAction="1" />
+</menu>

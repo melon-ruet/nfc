@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="@dimen/lic_margin_top">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@dimen/item_text_size" android:paddingLeft="@dimen/lic_pad" android:paddingRight="@dimen/lic_pad" android:layout_width="-2" android:layout_height="-2" android:text="@string/license_instructions" />
+        <TextView android:textSize="@dimen/item_text_size" android:paddingLeft="@dimen/lic_pad" android:paddingRight="@dimen/lic_pad" android:layout_width="-2" android:layout_height="-2" android:text="@string/license_EULA" />
+        <Button android:textSize="@dimen/button_text_size" android:id="@id/button_show_notices" android:paddingLeft="@dimen/lic_pad" android:paddingRight="@dimen/lic_pad" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/lic_margin" android:layout_marginBottom="0dp" android:text="@string/about_notices" />
+        <Button android:textSize="@dimen/button_text_size" android:id="@id/button_license_ok" android:paddingLeft="@dimen/lic_pad" android:paddingRight="@dimen/lic_pad" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@dimen/lic_margin" android:text="@string/license_ok" android:textAlignment="4" />
+    </LinearLayout>
+</ScrollView>

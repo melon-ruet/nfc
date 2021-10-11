@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ListView android:id="0x102000a" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:id="0x1020004" android:padding="10dp" android:layout_width="-1" android:layout_height="-2" android:text="@string/no_keys" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="51" android:id="@id/key_manager_undo_bar" android:background="@drawable/undo_bg" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="@dimen/undo_bar_layout_height" android:layout_marginLeft="@dimen/undo_bar_margin_left_right" android:layout_marginRight="@dimen/undo_bar_margin_left_right" android:layout_marginBottom="16dp" android:alpha="100.0" android:showDividers="2" android:dividerPadding="10dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/color_white" android:layout_gravity="10" android:id="@id/key_manager_undo_bar_text" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="@dimen/undo_bar_pad_left_right" android:layout_marginRight="16dp" android:layout_weight="1.0" />
+        <View android:background="@drawable/undobar_divider" android:layout_width="1dp" android:layout_height="-1" android:layout_marginLeft="4dp" android:layout_marginTop="10dp" android:layout_marginRight="4dp" android:layout_marginBottom="10dp" android:layout_weight="0.0" />
+        <Button android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="1" android:textColor="@color/color_text_dark" android:id="@id/key_manager_undo_bar_button" android:background="@color/transparent" android:paddingLeft="@dimen/undo_bar_button_pad_left" android:paddingRight="@dimen/undo_bar_pad_left_right" android:layout_width="-2" android:layout_height="-1" android:text="UNDO" android:drawableLeft="@drawable/ic_action_undo" android:drawablePadding="12dp" android:layout_weight="0.0" android:textAllCaps="true" />
+    </LinearLayout>
+</FrameLayout>

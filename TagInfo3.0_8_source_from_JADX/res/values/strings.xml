@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_dialog_app_version">Version: %1$s</string>
+    <string name="about_dialog_text">© 2014, NXP Semiconductors N.V. (Nasdaq: NXPI)</string>
+    <string name="about_dialog_title">About</string>
+    <string name="about_license_terms">Terms and Conditions</string>
+    <string name="about_notices">Legal Notices</string>
+    <string name="abs__action_bar_home_description">Navigate home</string>
+    <string name="abs__action_bar_up_description">Navigate up</string>
+    <string name="abs__action_menu_overflow_description">More options</string>
+    <string name="abs__action_mode_done">Done</string>
+    <string name="abs__activity_chooser_view_see_all">See all...</string>
+    <string name="abs__activitychooserview_choose_application">Choose an application</string>
+    <string name="abs__searchview_description_clear">Clear query</string>
+    <string name="abs__searchview_description_query">Search query</string>
+    <string name="abs__searchview_description_search">Search</string>
+    <string name="abs__searchview_description_submit">Submit query</string>
+    <string name="abs__searchview_description_voice">Voice search</string>
+    <string name="abs__shareactionprovider_share_with">Share with</string>
+    <string name="abs__shareactionprovider_share_with_application">Share with <g id="application_name" example="Bluetooth">%s</g></string>
+    <string name="aid_type_df">DESFire</string>
+    <string name="aid_type_iso">ISO/IEC 7816</string>
+    <string name="app_name">TagInfo</string>
+    <string name="app_name_android">TagInfo</string>
+    <string name="bullet">■</string>
+    <string name="context_menu_compare">Compare scans</string>
+    <string name="context_menu_compare_short">Compare</string>
+    <string name="context_menu_copy_key">Duplicate key</string>
+    <string name="context_menu_delete_key">Delete key</string>
+    <string name="context_menu_delete_scan">Delete scan report</string>
+    <string name="context_menu_edit">Edit scan title</string>
+    <string name="context_menu_edit_short">Edit title</string>
+    <string name="context_menu_find_similar">Find scans of the same tag</string>
+    <string name="context_menu_find_similar_short">Find similar scans</string>
+    <string name="context_menu_title">Select items</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="dialog_always_show">Always show this dialog</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_settings">Settings</string>
+    <string name="dialog_edit_title_ok">Save</string>
+    <string name="dialog_error_nfc_adapter">An error occurred while configuring NFC</string>
+    <string name="dialog_exporting">Exporting database…</string>
+    <string name="dialog_file_button">Open</string>
+    <string name="dialog_file_title">Choose a file</string>
+    <string name="dialog_get_subject_ok">Send</string>
+    <string name="dialog_install_ok">Install</string>
+    <string name="dialog_install_text">The NXP TagWriter app is needed to complete this action. Please, install it and try this action again.</string>
+    <string name="dialog_install_title">TagWriter missing</string>
+    <string name="dialog_key_df">MIFARE DESFire</string>
+    <string name="dialog_key_icode">ICODE SLI series</string>
+    <string name="dialog_key_mfc">MIFARE Classic</string>
+    <string name="dialog_key_mfplus">MIFARE Plus</string>
+    <string name="dialog_key_ntag">NTAG 21x series</string>
+    <string name="dialog_key_orig">Originality check</string>
+    <string name="dialog_key_ulc">MIFARE Ultralight C</string>
+    <string name="dialog_key_ulev1">MIFARE Ultralight EV1</string>
+    <string name="dialog_no_files">[No matching files]</string>
+    <string name="dialog_please_register_ok">Send</string>
+    <string name="dialog_scanning_tag">Scanning tag. Please wait…</string>
+    <string name="dialog_sort_ascending">Ascending</string>
+    <string name="dialog_sort_descending">Descending</string>
+    <string name="dialog_sort_enabled">Enabled</string>
+    <string name="dialog_sort_ndef">NDEF presence</string>
+    <string name="dialog_sort_time">Time</string>
+    <string name="dialog_sort_title">Description</string>
+    <string name="dialog_sort_type">Type</string>
+    <string name="dialog_sort_uid">ID value</string>
+    <string name="dialog_support_text">"For support select About
+For help select Help"</string>
+    <string name="dialog_support_title">Support</string>
+    <string name="dialog_text_are_you_sure">You cannot undo this operation.</string>
+    <string name="dialog_text_connect_error">There seems to be a problem accessing this tag. Please, remove the tag and press OK to retry</string>
+    <string name="dialog_text_nfc_off">Please, turn on NFC to use TagInfo</string>
+    <string name="dialog_text_nfc_timeout">TagInfo needs NFC capability. It seems your device has a problem with NFC</string>
+    <string name="dialog_text_please_register">Send a registration request by tapping the button below.</string>
+    <string name="dialog_text_taginfo_scan">TagInfo scan</string>
+    <string name="dialog_title_connect_error">Connection error</string>
+    <string name="dialog_title_delete_all">Delete selected scans?</string>
+    <string name="dialog_title_description">Tag description</string>
+    <string name="dialog_title_new_key">Choose a key type</string>
+    <string name="dialog_title_nfc_off">NFC is turned off</string>
+    <string name="dialog_title_nfc_timeout">NFC error</string>
+    <string name="dialog_title_please_register">Application not registered</string>
+    <string name="dialog_title_sort_by">Sort by</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_title_about">ABOUT</string>
+    <string name="drawer_title_help">HELP</string>
+    <string name="drawer_title_key_manager">User keys</string>
+    <string name="drawer_title_scan_history">Scan history</string>
+    <string name="drawer_title_scan_report">Scan report</string>
+    <string name="drawer_title_settings">SETTINGS</string>
+    <string name="email_chooser_title">Email scan report</string>
+    <string name="empty_text">Tap an NFC tag for info…</string>
+    <string name="help_glossary_title">List of abbreviations and technical terms</string>
+    <string name="help_home">This tab contains information on the manufacturer of the IC (chip) inside the tag and the IC type used (if detected). A list of applications possibly supported by the tag will also reported in this tab.</string>
+    <string name="help_home_title">Info tab</string>
+    <string name="help_info">This tab shows various further functional details detected about the IC used inside the tag.</string>
+    <string name="help_info_title">Extra tab</string>
+    <string name="help_intro_text">"The NXP TagInfo application allows you to browse the content of public transport and payment cards that are based on a contactless technology compatible with NFC in your device. In addition to its use as value checker NXP TagInfo will identify many additional applications.
+On top of the consumer focused functions it explores the full details of openly accessible information on contactless cards, tags and NFC-enabled items. In the following text we will use the simplified term tag for all contactless cards, tags and NFC-enabled items in general that can be accessed by your device.
+
+The menu of the application provides access to options to share an NFC data set with other applications and to email all information as shown on the four tabs of the application.
+
+All information as displayed will also be stored and is available for later viewing via the history option in the menu. The history option allows browsing through previously inspected tags. There is a search option in the application menu to quickly find the desired item. By long pressing an item, a context menu will be shown for that item.
+
+The settings option allows configuring some application behavior such as the amount of details shown on the screen and user interface aspects such as disabling the sound (except for sounds generated by the Android system), the vibration and more. It also allows making the NXP TagInfo work so that it does pop up as a target application in the application chooser of the Android system when NFC related activities are detected.
+
+A list of abbreviations and technical terms as used by NXP TagInfo is included at the end of the help text.
+
+The application user interface is split into four tabs (“screens”). Each of them can be selected by a tap on the icons at the top of the screen. The tabs are used to group the information that NXP TagInfo has read from the tag. The information split per tab is explained below."</string>
+    <string name="help_ndef">This tab contains the content and details of NFC Forum data sets possibly detected on the tag.</string>
+    <string name="help_ndef_title">NDEF tab</string>
+    <string name="help_tech">This tab lists the supported technologies of the tag detected as named by the Android NFC API as well as the related International Standards. In addition, this tab provides parameter information related to the supported communication modes and protocols about the IC used inside the tag. Furthermore, this tab displays the complete memory contents of supported tag types when this has been enabled in the settings.</string>
+    <string name="help_tech_title">Tech tab</string>
+    <string name="help_title">Application overview</string>
+    <string name="key_editor_df">DESFire key</string>
+    <string name="key_editor_mfc">MIFARE key</string>
+    <string name="key_editor_ntag">NTAG password</string>
+    <string name="key_editor_ul_ev1">Ultralight EV1 password</string>
+    <string name="key_editor_ulc">Ultralight C key</string>
+    <string name="key_type_df_2k3des">2k3DES</string>
+    <string name="key_type_df_3k3des">3k3DES</string>
+    <string name="key_type_df_aes">AES</string>
+    <string name="key_type_df_des">DES</string>
+    <string name="license_EULA"><b>IMPORTANT:</b>" This Software End-User License Agreement is a binding agreement between you, the end-user, and NXP Semiconductors N.V. regarding the use of the software accompanying this Agreement, which includes NXP TagInfo and provided documentation (together \"SOFTWARE\"). By installing, copying or otherwise using the SOFTWARE, you agree to be bound by the terms of this License Agreement.
+
+"<b>End User License Agreement</b>"
+
+THIS SOFTWARE IS THE PROPERTY OF NXP Semiconductors N.V. (hereinafter referred to as \"NXP\"), ALL RIGHTS RESERVED.
+
+UNDER NO CIRCUMSTANCES IS THIS SOFTWARE TO BE EXPOSED TO OR PLACED UNDER AN OPEN SOURCE LICENSE OF ANY TYPE WITHOUT THE EXPRESSED WRITTEN PERMISSION OF NXP
+
+"<b>1. OBJECT AND SCOPE OF THE AGREEMENT:</b>"
+NXP grants you a non-exclusive and non-transferable right to use the provided SOFTWARE:
+• to install all components of the SOFTWARE on a single device
+• to create backup copies of the SOFTWARE
+• to install and use the SOFTWARE
+
+"<b>2. UPDATE:</b>"
+In the event NXP provides any update to the SOFTWARE you may not use the earlier version(s) of the Software after 90 days of the provision of the applicable update. This article shall not be interpreted to impose any obligation on NXP to provide any update to the SOFTWARE.
+
+"<b>3. DISCLAIMER OF WARRANTIES:</b>"
+YOU AGREE THAT NXP HAS MADE NO EXPRESS WARRANTIES TO YOU REGARDING THE SOFTWARE AND THAT THE SOFTWARE IS BEING PROVIDED TO YOU \"AS IS\" WITHOUT WARRANTY OF ANY KIND.
+NXP DISCLAIMS ALL WARRANTIES WITH REGARD TO THE SOFTWARE, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, MERCHANTABLE QUALITY OR NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+Some states or jurisdictions do not allow the exclusion of implied warranties so the above limitations or parts of it may not apply to you.
+
+"<b>4. LIMITATION OF LIABILITY:</b>"
+IN NO EVENT WILL NXP BE LIABLE TO YOU FOR ANY LOSS OF USE, INTERRUPTION OF BUSINESS, OR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND (INCLUDING LOST PROFITS) REGARDLESS OF THE FORM OF ACTION WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT PRODUCT LIABILITY OR OTHERWISE, EVEN IF ENDUSER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+Some states or jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation, exclusion or parts of it may not apply to you.
+
+"<b>5. USAGE:</b>"
+ANY SOFTWARE MADE AVAILABLE IN FORM OF THIS PACKAGE IS MADE AVAILABLE FOR USE BY END USERS ONLY AND ANY FURTHER COPYING, MODIFICATION; REVERSE DEVELOPMENT, DECOMPILING, REPRODUCTION OR REDISTRIBUTION OF THIS PACKAGE OR PARTS OF IT IS EXPRESSLY PROHIBITED. WE DO NOT WARRANT THAT THE FUNCTIONS CONTAINED WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION WILL BE UNINTERRUPTED OR ERROR FREE. THEY ARE NOT OPTIMISED IN TERMS OF SPEED OR SIZE. THE ENTIRE RISK AS TO THE RESULTS AND PERFORMANCE OF USE IS ASSUMED BY YOU.
+
+END OF TERMS AND CONDITIONS"</string>
+    <string name="license_instructions">Read all of the following terms and conditions and confirm to accept by clicking the \"<b>I accept</b>"\" button at the end. 
+"</string>
+    <string name="license_notices" formatted="false"><b>ActionBarSherlock</b>"
+
+Copyright 2012 Jake Wharton
+
+Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+"<b>1. Definitions.</b>"
+
+\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+
+"<b>2. Grant of Copyright License.</b>" Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+
+"<b>3. Grant of Patent License.</b>" Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+
+"<b>4. Redistribution.</b>" You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+
+a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+
+b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+
+c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+
+d) If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+
+"<b>5. Submission of Contributions.</b>" Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+
+"<b>6. Trademarks.</b>" This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+
+"<b>7. Disclaimer of Warranty.</b>" Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+
+"<b>8. Limitation of Liability.</b>" In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+
+"<b>9. Accepting Warranty or Additional Liability.</b>" While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS
+
+
+
+"<b>Android Switch Widget Backport</b>"
+
+Copyright 2012 Benoit 'BoD' Lubek (BoD@JRAF.org). All Rights Reserved.
+Copyright (C) 2012 Intrications (intrications.com)
+Copyright (c) 2005-2008, The Android Open Source Project
+
+
+Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+"<b>1. Definitions.</b>"
+
+\"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+
+\"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+
+\"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+
+\"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+\"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+
+\"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+
+\"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+
+\"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+
+\"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"
+
+\"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+
+"<b>2. Grant of Copyright License.</b>" Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+
+"<b>3. Grant of Patent License.</b>" Subject to the terms and conditions of this License, each Contributor hereby grant s to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+
+"<b>4. Redistribution.</b>" You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+
+(a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+
+(b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+
+(c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+
+(d) If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+
+"<b>5. Submission of Contributions.</b>" Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+
+"<b>6. Trademarks.</b>" This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+
+"<b>7. Disclaimer of Warranty.</b>" Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+
+"<b>8. Limitation of Liability.</b>" In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+
+"<b>9. Accepting Warranty or Additional Liability.</b>" While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS
+"</string>
+    <string name="license_notices_title">Notices for file(s)</string>
+    <string name="license_ok"><b><font size="20">I accept</font></b></string>
+    <string name="license_version">2.0</string>
+    <string name="menu_about">About</string>
+    <string name="menu_add_key">Add key</string>
+    <string name="menu_clear_screen">Clear scan report</string>
+    <string name="menu_delete_all">Delete scans</string>
+    <string name="menu_discard">Discard changes</string>
+    <string name="menu_email">Email scan report</string>
+    <string name="menu_email_short">Email scan</string>
+    <string name="menu_export_all">Export database</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_mark_key">Select keys</string>
+    <string name="menu_mark_scan">Select scans</string>
+    <string name="menu_open_scan">Open scan</string>
+    <string name="menu_open_scan_file">Open scan XML file</string>
+    <string name="menu_prefs">Settings</string>
+    <string name="menu_save_scan">Save scan</string>
+    <string name="menu_search_keys">Search keys</string>
+    <string name="menu_search_scans">Search scans</string>
+    <string name="menu_send">Share scan report</string>
+    <string name="menu_send_all">Email scans</string>
+    <string name="menu_send_ndef">Write NFC data set</string>
+    <string name="menu_send_short">Share scan</string>
+    <string name="menu_share_all">Share scans</string>
+    <string name="menu_show_dec">DEC</string>
+    <string name="menu_show_hex">HEX</string>
+    <string name="menu_show_key_manager">Key manager</string>
+    <string name="menu_show_scan_list">Scan history</string>
+    <string name="menu_sort_field">Sort</string>
+    <string name="menu_switch_db">Open database</string>
+    <string name="name_help">Help</string>
+    <string name="name_history">Scan history</string>
+    <string name="name_keys">User keys</string>
+    <string name="name_license">License agreement</string>
+    <string name="name_preferences">Settings</string>
+    <string name="name_register">Registering TagInfo…</string>
+    <string name="ndef_access">NFC data set access</string>
+    <string name="ndef_check_skipped">Check for NFC data set was not performed</string>
+    <string name="ndef_current_size">Current message size</string>
+    <string name="ndef_make_read_only">Can be made Read-Only</string>
+    <string name="ndef_malformed_ndef_message">NFC data set contains an error</string>
+    <string name="ndef_max_size">Maximum message size</string>
+    <string name="ndef_message_hex">NDEF message</string>
+    <string name="ndef_no_mifare_support">No access; this Android device does not support this type of tag</string>
+    <string name="ndef_no_ndef_message">No NFC data set available</string>
+    <string name="ndef_no_ndef_present">NFC data set storage not present</string>
+    <string name="ndef_no_ndef_support">No NFC data set storage</string>
+    <string name="ndef_no_nxp_mifare_support">No access; this Android device does not support MIFARE Classic technology</string>
+    <string name="ndef_read_only">Read-Only</string>
+    <string name="ndef_read_write">Read &amp; Write</string>
+    <string name="nfc_forum_like_tag">NFC Forum NDEF-enabled tag</string>
+    <string name="nfc_forum_tag">NFC Forum NDEF-compliant tag</string>
+    <string name="no_keys">Add keys to obtain more tag details</string>
+    <string name="no_keys_found">No keys found</string>
+    <string name="no_scan_item">No details available</string>
+    <string name="no_scans_found">No scans found</string>
+    <string name="no_scans_present">Tap an NFC tag to generate a scan report</string>
+    <string name="no_tag">No tag</string>
+    <string name="ntag_pwd_overrule">"To overrule this behaviour, fill in the UID of a tag below. The password will then always be submitted to this tag.
+
+"<b>USE AT YOUR OWN RISK!</b></string>
+    <string name="ntag_pwd_warning">The password will only be submitted when the AUTHLIM setting can be read without password and is equal to 0. This prevents accidental locking of a tag.</string>
+    <string name="nxp_color">NXP logo in colour</string>
+    <string name="nxp_gray">NXP logo in gray</string>
+    <string name="pref_check_ndef">Check for NFC data sets</string>
+    <string name="pref_check_ndef_summary">Automatically read NDEF messages</string>
+    <string name="pref_default_scan_level">@string/pref_scan_level_full</string>
+    <string name="pref_email_category">Scan report sharing</string>
+    <string name="pref_email_only">Only via email</string>
+    <string name="pref_email_share_address">Default email address</string>
+    <string name="pref_email_share_address_none">No email address configured</string>
+    <string name="pref_email_share_address_title">Enter an email address</string>
+    <string name="pref_email_xml">Attach scan report in XML</string>
+    <string name="pref_foreground_only">Hide from app chooser</string>
+    <string name="pref_foreground_only_summary">Do not interfere with other apps</string>
+    <string name="pref_general_category">User interface</string>
+    <string name="pref_key_management">User keys</string>
+    <string name="pref_key_management_summary">Set up and manage authentication keys</string>
+    <string name="pref_lock_landscape_mode_summary">Locked in landscape mode</string>
+    <string name="pref_lock_orientation_title">Auto-rotate screen</string>
+    <string name="pref_lock_portrait_mode_summary">Locked in portrait mode</string>
+    <string name="pref_no_mifare">This Android device does not support MIFARE Classic technology</string>
+    <string name="pref_nxp_ndef_notification">Show notifications</string>
+    <string name="pref_nxp_ndef_notification_summary">When an NXP IC or an NFC data set is detected</string>
+    <string name="pref_operation_category">Scan operation</string>
+    <string name="pref_reader_config_nfc_a">Detect NFC-A tags</string>
+    <string name="pref_reader_config_nfc_a_summary">ISO/IEC 14443-3&amp;4 Type A, NXP MIFARE</string>
+    <string name="pref_reader_config_nfc_b">Detect NFC-B tags</string>
+    <string name="pref_reader_config_nfc_b_summary">ISO/IEC 14443-4 Type B</string>
+    <string name="pref_reader_config_nfc_barcode">Detect NFC Barcode tags</string>
+    <string name="pref_reader_config_nfc_barcode_summary">(If your device supports them)</string>
+    <string name="pref_reader_config_nfc_f">Detect NFC-F tags</string>
+    <string name="pref_reader_config_nfc_f_summary">JIS X 6319-4, Sony FeliCa</string>
+    <string name="pref_reader_config_nfc_v">Detect NFC-V tags</string>
+    <string name="pref_reader_config_nfc_v_summary">ISO/IEC 15693-3, NXP ICODE</string>
+    <string name="pref_reader_mode">NFC reader mode</string>
+    <string name="pref_reader_mode_config">Configure NFC reader mode</string>
+    <string name="pref_reader_mode_summary_off">Control which tags will be detected</string>
+    <string name="pref_reader_mode_summary_on">(Android Beam is now disabled)</string>
+    <string name="pref_scan_level">Amount of tag details collected</string>
+    <string name="pref_scan_level_detailed">d</string>
+    <string name="pref_scan_level_full">f</string>
+    <string name="pref_scan_level_quick">q</string>
+    <string name="pref_show_email_subject">Edit subject</string>
+    <string name="pref_show_email_subject_summary">Allow to edit the subject before sharing</string>
+    <string name="pref_show_hex">Show hexadecimal values</string>
+    <string name="pref_show_hex_summary">With various interpreted data</string>
+    <string name="pref_sound_enabled_summary">At the start or finish of a scan</string>
+    <string name="pref_sound_enabled_summary_off">At the start or finish of a scan (will not mute system sounds)</string>
+    <string name="pref_sound_enabled_title">Play sounds</string>
+    <string name="pref_switch_to_info_summary">When a new tag is scanned</string>
+    <string name="pref_switch_to_info_title">Switch back to Info view</string>
+    <string name="pref_technology_category">Tag technologies</string>
+    <string name="pref_try_key_b">Find all MIFARE keys</string>
+    <string name="pref_try_key_b_summary_on">May take a long time to complete!</string>
+    <string name="pref_user_key">MIFARE user key</string>
+    <string name="pref_user_key_none">No key configured</string>
+    <string name="pref_user_key_title">Enter a 6-byte MIFARE key as a hexadecimal value</string>
+    <string name="pref_vib_enabled_summary">When starting or finishing a scan</string>
+    <string name="pref_vib_enabled_title">Vibrate</string>
+    <string name="search_keys_hint">Search keys…</string>
+    <string name="search_scans_hint">Search scans…</string>
+    <string name="select_all">Select all</string>
+    <string name="send_subject">TagInfo scan</string>
+    <string name="send_subject_all">TagInfo scan collection</string>
+    <string name="share_chooser_title">Share scan report</string>
+    <string name="start_text">TagInfo scan</string>
+    <string name="switch_off">OFF</string>
+    <string name="switch_on">ON</string>
+    <string name="tab_extra">EXTRA</string>
+    <string name="tab_info">INFO</string>
+    <string name="tab_ndef">NDEF</string>
+    <string name="tab_tech">TECH</string>
+    <string name="title_extra_ats">ATS historical bytes details</string>
+    <string name="title_extra_cplc">Card Production Life Cycle data (CPLC)</string>
+    <string name="title_extra_desfire">DESFire version information</string>
+    <string name="title_extra_ic">IC detailed information</string>
+    <string name="title_extra_jcop">JCOP identification information</string>
+    <string name="title_extra_mem_size">Memory size</string>
+    <string name="title_extra_mf_mem_size">MIFARE memory size</string>
+    <string name="title_extra_sec_level">Security Level detected</string>
+    <string name="title_ndef_cc">NDEF Capability Container (CC)</string>
+    <string name="title_ndef_fci">Type 4 Tag File Control Information (FCI)</string>
+    <string name="title_ndef_file">NDEF file content</string>
+    <string name="title_ndef_info">NFC data set information</string>
+    <string name="title_ndef_mifare_cc">NDEF sector analysis</string>
+    <string name="title_ndef_tlv">Control TLVs</string>
+    <string name="title_tag_afi">Application type</string>
+    <string name="title_tag_app_info">Application information</string>
+    <string name="title_tag_ic_type">IC type</string>
+    <string name="title_tag_manufacturer">IC manufacturer</string>
+    <string name="title_tag_os_type">Card OS type</string>
+    <string name="title_tech_android_technology">Android technology information</string>
+    <string name="title_tech_desfire_hex">DESFire memory content</string>
+    <string name="title_tech_hex">Memory content</string>
+    <string name="title_tech_mifare_hex">MIFARE memory content</string>
+    <string name="title_tech_proto">Detailed protocol information</string>
+    <string name="title_tech_technology">Technologies supported</string>
+    <string name="toast_cannot_read_mad_data">Error loading MIFARE Application Directory database</string>
+    <string name="toast_cannot_read_oui_data">Error loading Company ID (OUI) database</string>
+    <string name="toast_email_error">Sorry, no email app found</string>
+    <string name="toast_error_deleting">Sorry, an error occured while deleting items</string>
+    <string name="toast_export_failed">Sorry, exporting failed</string>
+    <string name="toast_export_ok">Exported to</string>
+    <string name="toast_file_access_error">Sorry, an error occurred while accessing this file</string>
+    <string name="toast_file_open_error">Sorry, cannot open this file</string>
+    <string name="toast_file_permission_error">Sorry, no permission to read this file</string>
+    <string name="toast_file_read_error">Sorry, cannot read this file</string>
+    <string name="toast_file_write_error">Sorry, an error occurred while writing data</string>
+    <string name="toast_first_history_item">Last scan report reached</string>
+    <string name="toast_function_not_implemented">Sorry, this function has not been implemented yet</string>
+    <string name="toast_invalid_mifare_key">Sorry, the MIFARE key value is invalid. Please, enter a hexadecimal value less than 0xFFFFFFFFFFFF</string>
+    <string name="toast_last_history_item">First scan report reached</string>
+    <string name="toast_missing_fields">Not all required fields have been filled in!</string>
+    <string name="toast_ndef_detected">NFC data set detected</string>
+    <string name="toast_ndef_storage_detected">NFC data storage detected</string>
+    <string name="toast_no_activity_found">Sorry, no application found</string>
+    <string name="toast_no_app_installed_aar">Sorry, there is no application installed to handle this Android application record</string>
+    <string name="toast_no_app_installed_mime">Sorry, there is no application installed to handle this MIME type</string>
+    <string name="toast_no_app_installed_uri">Sorry, there is no application installed to handle this URI</string>
+    <string name="toast_no_email">Sorry, no email app found</string>
+    <string name="toast_no_file_error">Sorry, no file name found</string>
+    <string name="toast_no_ndef">Sorry, no NFC data set found</string>
+    <string name="toast_no_scans_found">Sorry, could not find any scans</string>
+    <string name="toast_no_tagwriter_found">"Sorry, no application found.
+Did you install NXP TagWriter?"</string>
+    <string name="toast_nxp_detected">NXP IC detected</string>
+    <string name="toast_parse_error">Sorry, an error occurred parsing the scan report</string>
+    <string name="toast_save_error">Sorry, could not save scan report</string>
+    <string name="toast_save_ok">Scan report saved</string>
+    <string name="toast_scans_deleted">Selected scans have been deleted</string>
+    <string name="toast_sorry_error">Sorry, an error occurred</string>
+    <string name="toast_tag_error_message">Sorry, there seem to be serious errors communicating with the tag. Scanning it may not be possible.</string>
+    <string name="toast_tag_lost_message">Sorry, tag communication was interrupted. The result may be incomplete or inaccurate.</string>
+    <string name="toast_tag_no_ndef_message">NFC data set is empty</string>
+    <string name="toast_usb_error">Sorry, cannot access USB storage</string>
+    <string name="toggle_all">Invert selection</string>
+    <string name="type_1_tag">Type 1 Tag</string>
+    <string name="type_2_tag">Type 2 Tag</string>
+    <string name="type_3_tag">Type 3 Tag</string>
+    <string name="type_4_tag">Type 4 Tag</string>
+    <string name="type_icode_tag">Type ICODE Tag</string>
+    <string name="type_mifare_tag">Type MIFARE Tag</string>
+    <string name="type_nfca_tag">Unknown Type Tag</string>
+    <string name="type_nfcv_tag">Unknown Type Tag</string>
+    <string name="undo">UNDO</string>
+</resources>
